@@ -1,0 +1,70 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="surveyform.css">
+
+</head>
+        
+<body>
+    <div class="container">
+        
+            <header class="header">
+                <h1 id="title">Survey Form</h1>
+                <p id="description">Thank you for taking the survey.</p>
+            </header>
+       
+        <form action="" id="survey-form">
+        <div class="container">
+            <div class="form-group">
+                <label id="name-label">NAME<br>
+                    <input type="text" id="name" placeholder="Enter your name" required></label>
+            </div>
+            <div class="form-group">
+                <label id="email-label">EMAIL<br>
+                    <input type="email" id="email" placeholder="Enter your email" required></label>
+            </div>
+            <div class="form-group">
+                <label id="number-label">AGE<br>
+                    <input type="number" id="age" min="10" max="99"  placeholder="Age" required></label>
+            </div>
+            <div class="form-group">
+                <label for="role-label">Which option best describes your current role?<br>
+                <select name="role" id="dropdown"></label>
+                    <option disabled selected>Select current role</option>
+                    <option value="student">Student</option>
+                    <option value="learner">Full Time Learner</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <p>Would you recommend freeCodeCamp to a friend?</p>
+                    <label for="recommend">
+                        <input type="radio" id="definitely" name="recommend" value="definitely"> Definitely <br>
+                        <input type="radio" id="maybe" name="recommend" value="maybe"> Maybe
+                    </label>
+            </div>
+            <div class="form-group">
+                <P>What would you like to see improved? (Check all that apply)</P>
+                <label for="checklist">
+                    <input type="checkbox" name="checklist" id="front-end projects" value="font-end projects"> Front-end Projects <br>
+                    <input type="checkbox" name="checklist" id="back-end projects" value="back-end projects"> Back-end Projects
+                </label>
+            </div>
+            <div class="form-group">
+                <p>Any comments or suggestions?</p>
+                <label for="comments">
+                    <textarea name="comments" id="comments" cols="30" rows="10" placeholder="Enter your comments here.."></textarea></label>
+            </div>
+            <div class="button">
+                <button id="submit">SUBMIT</button>
+            </div>
+        </div>
+        </form>
+    </div>
+</body>
+</html>
+
+
+

@@ -1,0 +1,26 @@
+body {
+    background: radial-gradient(rgb(187, 187, 253), rgba(28, 28, 54));
+    font-size: 14px;
+    color: white;
+}
+.header {
+    width: 600px;
+    margin: 20px auto;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 130%;
+}
+form {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(45, 45, 80);
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 0 30px 0 rgb(29, 44, 44, .5);
+    border-radius: 10px;
+}
+#name, #email, #age, select, textarea, button {
+    width: 600;
+    margin: 10px auto;
+}
+ 
